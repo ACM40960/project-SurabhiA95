@@ -32,7 +32,28 @@ The Jupyter file should be run chronologically. Failure to do so may result in e
 
 *Note: Some of the code blocks take longer to run. The runtimes (in seconds) for Additional Simulations are as follows:*
 
-   <img width="150" height = "225" alt="image" src="https://user-images.githubusercontent.com/105721523/180786323-a15dfb66-13f3-44d6-a63d-30318840c057.png">
+   <img width="150" height = "200" alt="image" src="https://user-images.githubusercontent.com/105721523/180786323-a15dfb66-13f3-44d6-a63d-30318840c057.png">
+
+## Packages
+
+All the following packages used in this project come with the Anaconda Distribution and doesn’t require any additional installation.
+
+```
+from time import time
+import time
+import math
+import fractions
+from scipy import *
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import plotly.graph_objects as go
+import plotly.express as px
+```
+
+## Results
 
 
 
