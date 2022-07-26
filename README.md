@@ -11,7 +11,7 @@ Pi is an irrational number, and thus it can never be written as a fraction of tw
   
   <img width="773" alt="image" src="https://user-images.githubusercontent.com/105721523/180783465-7d3752a8-66ce-45b6-b845-9143029e197f.png">
   
-  *Note that Jupyter python script as an extension of **.pynb** unlike **.py** for other python scripts. So the user should open the script using Jupyter Notebook.*
+  *Note that Jupyter python script has an extension of **.pynb** unlike **.py** for other python scripts. So the user should open the script using Jupyter Notebook.*
 
 * Afterwards, the user must clone the Git repository on the local machine. On the GitHub, navigate to the repository, select the ***Code*** button (in green) and then select the button beside the link to copy the repository link.
 
@@ -53,7 +53,33 @@ import plotly.graph_objects as go
 import plotly.express as px
 ```
 
-## Results
+## Functional Blocks
+
+| **Functions**   | Task            |
+| --------------- | --------------- |
+| random()       |  This function uses Lehmer Random Number Generator to generate values between (0,1)| 
+| resetSeed()    |  This function takes an argument of a real number and reset or initialise the state of random number generator.| 
+| calcPi()       |  This function stores the simulated values of pi in global variables, calculate mean and standard deviation of the values and also calculate the difference between the average of simulated values and the true pi. It returns a data-frame with mean, standard deviation and difference from true pi for each seed and each N.|
+| errbars()      |  This function takes mean and standard deviation and list of number of iterations obtained from calcPi() to generate error-bars for each N and each seed.|
+| linearPlot()   |  This function takes in the data-frame returned by calcPi() as an argument to generate a linear plot between difference and N.|
+| semiLogPlot()  |  This function takes in the data-frame returned by calcPi() as an argu- ment to generate a point plot between difference and N with y-axis (axis of difference/error) on logarithmic scale.|
+| logLogPlot()   |  This function takes in the data-frame returned by calcPi() and list of number of iterations as arguments to generate a point plot between difference/error and N with both axes on logarithmic scale.|
+| Archimedes()   |  |
+| Buffon()       |  |
+| AreaOfCircle() |  |
+| funcAvg()      |  |
+| MCInt1()       |  |
+| MCInt2()       |  |
+| MCInt3()       |  |
+| MCInt4()       |  |
+| probFunc()     |  |
+| calculateProbability()    | |
+
+## Results  
+
+
+
+  ![final](https://user-images.githubusercontent.com/105721523/181045867-4c616132-259b-4eca-a7dd-becae810b0a7.png)
 
 
 
