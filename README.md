@@ -82,6 +82,7 @@ The boxplot shows the approximations of pi using all the Monte-Carlo methods for
   ![final](https://user-images.githubusercontent.com/105721523/181045867-4c616132-259b-4eca-a7dd-becae810b0a7.png)
 
 Some methods have generated values which are farther from true pi (outliers). But for all the methods, box-plots are short almost indistinguishable which suggests that most of the estimates generated are close to true pi.
+Report contains more findings to conclude which methods is provides the best converging and computationally fastest result.
 
 
 
