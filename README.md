@@ -64,16 +64,16 @@ import plotly.express as px
 | linearPlot()   |  This function takes in the data-frame returned by calcPi() as an argument to generate a linear plot between difference and N.|
 | semiLogPlot()  |  This function takes in the data-frame returned by calcPi() as an argu- ment to generate a point plot between difference and N with y-axis (axis of difference/error) on logarithmic scale.|
 | logLogPlot()   |  This function takes in the data-frame returned by calcPi() and list of number of iterations as arguments to generate a point plot between difference/error and N with both axes on logarithmic scale.|
-| Archimedes()   |  |
-| Buffon()       |  |
-| AreaOfCircle() |  |
-| funcAvg()      |  |
-| MCInt1()       |  |
-| MCInt2()       |  |
-| MCInt3()       |  |
-| MCInt4()       |  |
-| probFunc()     |  |
-| calculateProbability()    | |
+| Archimedes()   |  implements Archimedes' method to find an approximation of pi |
+| Buffon()       |  implements Buffon's needle problem which finds the probability that a needle of length 'l' will land on a line, given a paper with equally spaced parallel lines a distance 't' apart to approximate pi |
+| AreaOfCircle() |  approximate pi using area of a quarter of the circle |
+| funcAvg()      |  calculate average of a continuous function to estimate pi|
+| MCInt1()       |  calculate gamma function integral to approximate pi Γ(1/2) = √π |
+| MCInt2()       |  change the variable of gamma function integral from x to u (u = 1/(x+1)) to estimate pi |
+| MCInt3()       |  compute an integral with a calculation involving pi |
+| MCInt4()       |  change the variable of the above integral from x to u |
+| probFunc()     |  compute the probability that the closest integer to x/y (randomly drawn from [0,1]) is even to estimate pi |
+| calculateProbability()    | calculate the probability that two integers randomly chosen are co-prime to approximate pi |
 
 ## Results  
 
